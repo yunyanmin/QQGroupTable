@@ -27,7 +27,7 @@
     self.groupTable.tableFooterView = [[UIView alloc]init];
     self.groupTable.dataSource = self;
     self.groupTable.delegate = self;
-    
+    //上传
     //绑定数据源
     [self loadDataModel];
     
